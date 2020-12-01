@@ -1,0 +1,231 @@
+body{
+    background-color: #1d2d50;
+    color: #fcdab7;
+    margin: 20px 0px 0px 0px;
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container{
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aisehi
+{
+    width: 100%;
+    /* border-radius: 15px; */
+    margin-left: 5px;
+    /* box-shadow: 4px 4px 10px #d1c1453b; */
+}
+
+.aisehi2
+{
+    
+    width: 90%;
+    margin-left: 5px;
+}
+
+.footer{
+    background-color: white;
+    text-align: center;
+}
+
+.nav-bar{
+    position: relative;
+    color: #1e5f74;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    border: 1px dotted white;
+
+   }
+
+.navbuttonlist{
+    box-shadow: 1px 1px #d1c145;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.navbutton{
+    display: inline-block;
+    position: relative;
+    border: 1px solid #d1c145;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.navbutton:hover .dropdown{
+    display: block; 
+}
+
+.dropdown{
+    padding-top: 20px;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding: 20px;
+    text-align: right; 
+       
+}
+
+.logo
+{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.menu
+{
+    margin-right: 150px;
+    margin-top: 27px;
+}
+
+  
+main{
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    margin: 80px 0px 100px 0px;
+}
+
+.services{
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.devservices{
+    background-image: url(images/webdev.jpg);
+    background-size: cover;
+    min-height: 300px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgba(255, 255, 255, 0.199);
+    border: 1px solid rgba(255, 255, 255, 0.596);
+}
+
+.dmservices{
+    background-image: url(images/dmservices.jpg);
+    background-size: cover;
+    min-height: 300px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 2px 2px 20px rgba(255, 255, 255, 0.199);
+    border: 1px solid rgba(255, 255, 255, 0.596);
+}
+
+
+.appdev{
+    background-image: url(images/appdev.jpg);
+    background-size: cover;
+    min-height: 300px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgba(255, 255, 255, 0.199);
+    border: 1px solid rgba(255, 255, 255, 0.596);
+}
+
+.front-text{
+    flex: 2;
+    padding-right: 150px;
+    }
+
+.front-image{
+    flex: 1;
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p{
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+a{
+    color: #f8f7de;
+    text-decoration: none;
+}
+
+.rule{
+    color: thistle;
+}
+
+.service-heading{
+    font-size: 30px;
+}
+
+.service-heading:hover{
+    color: white;
+}
+
+i{
+    font-size: 200%;
+    color: yellow;
+}
+
+.button-knowmore{
+    background-color:#FBD309;
+    color:#222831;
+    padding: 11px 25px;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px rgb(255, 255, 255);
+}
+
+.button-knowmore:hover{
+    background-color: white;
+}
+
+hr{
+    opacity: 0.2;
+
+}
+
+.button:hover{
+    color: #d1c145;
+}
+
+.testimonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px 0px 50px 0px;
+}
+
+.testimotext{
+    width: 37%;
+    padding: 50px;
+    margin-top: 50px;
+    border-radius: 50px 0px 50px 0px;
+    box-shadow: 1px 1px #d1c145;
+}
+
+.servicesContact{
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 80px;
+}
+
+#name{ 
+    width: 40%;
+    height: 40px;
+}
+
+#email
+{ 
+    width: 40%;
+    height: 40px;
+}
